@@ -1,5 +1,4 @@
 ﻿
-# SpaceGNN: Multi-Space Graph Neural Network for Node Anomaly Detection with Extremely Limited Labels
 
 ## Tested Environment
 
