@@ -12,6 +12,17 @@
 - [Scipy 1.7.3](https://scipy.org/)
 - [Dgl 0.9.0](https://www.dgl.ai/pages/start.html)
 
+please create an env:
+```
+conda creare -n space_aml python=3.7.16
+conda activate space_aml
+```
+
+install libraries:
+```
+pip install -r requirements.txt
+```
+
 ## Datasets
 
 Download data files from [GADbench](https://github.com/squareRoot3/GADBench) (or import from dgl) and put them in datasets/. 
@@ -20,8 +31,8 @@ Download data files from [GADbench](https://github.com/squareRoot3/GADBench) (or
 
 ```
 ├── datasets
-│   ├── weibo
-│   │   ├── weibo (different datasets may have different types)
+│   ├── amazon
+│   │   ├── amazon (different datasets may have different types)
 │   ├── main.py  
 │   ├── utils.py
 │   ├── name.py
@@ -30,7 +41,7 @@ Use main.py to generate training/validation/test set.
 
 **Example**
 ```
-python main.py --data weibo
+python main.py --data amazon
 ```
 
 ## Experiments
@@ -40,5 +51,5 @@ As described in paper.
 
 **Example**
 ```
-python main.py --data weibo
+python main.py --data amazon
 ```

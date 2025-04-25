@@ -6,7 +6,7 @@ from dgl.data.utils import load_graphs
 import time
 from sklearn.model_selection import train_test_split
 import random
-import pygod.utils as pygodutils
+# import pygod.utils as pygodutils
 
 from name import *
 
